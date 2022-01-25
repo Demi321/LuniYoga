@@ -1,0 +1,52 @@
+:root {
+    --moradoLuniYoga: #5f58a4;
+    --moradoClaro: #e7dcec;
+}
+
+.contenedorRegistro {
+    border: 1px solid rgb(194, 194, 194);
+    border-radius: 8px;
+    width: 50%;
+}
+
+.contenedorRegistro .btnAccionPrimaria {
+    border: none;
+    border-radius: 7px;
+    background-color: #e7dcec;
+    color: #5f58a4;
+}
+
+.contenedorRegistro .btnAccionSecundaria {
+    border: none;
+    border-radius: 7px;
+    background-color: white;
+    color: #5f58a4;
+    margin-bottom: 10px;
+}
+
+.contenedorRegistro .btnAccionSecundaria:hover {
+    background-color: #f8f1fc;
+}
+
+.contenedorRegistro .avisoError {
+    font-size: 13px;
+    color: var(--moradoLuniYoga);
+}
+
+.isInvalid {
+    border: 1px solid rgb(255, 132, 132);
+}
+
+.ocultaElemento {
+    display: none;
+}
+
+
+/*
+.contenedorRegistro .btnRegistro::before {
+    content: "text antes";
+}
+
+.contenedorRegistro .btnRegistro::after {
+    content: "text despues";
+}*/
