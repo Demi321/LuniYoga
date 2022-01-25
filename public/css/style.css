@@ -81,7 +81,7 @@ nav .navbar .menu li {
 }
 
 .navbar .menu a {
-    font-size: 24px;
+    font-size: 15px;
     font-weight: 500;
     color: rgba(76, 70, 154, .8);
     padding: 6px 0;
@@ -223,20 +223,20 @@ nav.sticky .menu-btn {
 }
 
 #car1 {
-    background: linear-gradient(0deg, rgba(10, 86, 150, .35), rgba(215, 219, 221, .65)), url("Images/meditacion1.jpg");
+    background: linear-gradient(0deg, rgba(10, 86, 150, .35), rgba(215, 219, 221, .65)), url("../imagenes/meditacion1.jpg");
     background-size: cover;
     background-attachment: fixed;
     background-position: right center;
 }
 
 #car2 {
-    background: linear-gradient(-130deg, rgba(231, 220, 236, .45), rgba(215, 219, 221, .15)), url("Images/n6.jpeg") left center;
+    background: linear-gradient(-130deg, rgba(231, 220, 236, .45), rgba(215, 219, 221, .15)), url("../imagenes/n66.jpeg") left center;
     background-size: cover;
     background-attachment: fixed;
 }
 
 #car3 {
-    background: linear-gradient(-180deg, rgba(215, 219, 221, .5), rgba(215, 219, 221, .1)), url("Images/n20.jpeg") center top;
+    background: linear-gradient(-180deg, rgba(215, 219, 221, .5), rgba(215, 219, 221, .1)), url("../imagenes/n20.jpeg") center top;
     background-size: cover;
     background-position: top;
     background-attachment: fixed;
@@ -308,11 +308,11 @@ section .topic .titalianzas {
 }
 
 .image:nth-child(1)::before {
-    background-image: url(Images/logo33.jpg);
+    background-image: url(../imagenes/logo33.jpg);
 }
 
 .image:nth-child(2)::before {
-    background-image: url(Images/logo%20plas.png);
+    background-image: url(../imagenes/logo%20plas.png);
 }
 
 
@@ -427,7 +427,7 @@ section .topic .titalianzas1 span {
     margin: 0;
     position: absolute;
     top: 0;
-    background: url('sss/images/arr.png') no-repeat;
+    background: url('../sss/images/arr.png') no-repeat;
 }
 
 .sssprev {
@@ -614,7 +614,7 @@ section .topic {
 /*Nosotros Mision*/
 
 section .mision {
-    background-image: url(Images/fondocorazon.png);
+    background-image: url(../imagenes/fondocorazon.png);
     height: 300px;
 }
 
@@ -910,7 +910,7 @@ section .button button:hover {
     position: absolute;
     top: -5px;
     left: -5px;
-    background-image: url("Images/n88.jpeg");
+    background-image: url("../imagenes/n88.jpeg");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -934,7 +934,7 @@ section .button button:hover {
     position: absolute;
     top: -5px;
     left: -5px;
-    background-image: url("Images/letiaguayo4.jpeg");
+    background-image: url("../imagenes/letiaguayo4.jpeg";
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -958,7 +958,7 @@ section .button button:hover {
     position: absolute;
     top: -5px;
     left: -5px;
-    background-image: url("Images/n2121.jpeg");
+    background-image: url("../imagenes/n2121.jpeg");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -982,7 +982,7 @@ section .button button:hover {
     position: absolute;
     top: -5px;
     left: -5px;
-    background-image: url("Images/Lucero%20Fernandez2.jpeg");
+    background-image: url("../imagenes/Lucero%20Fernandez2.jpeg");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -1006,7 +1006,7 @@ section .button button:hover {
     position: absolute;
     top: -5px;
     left: -5px;
-    background-image: url("Images/Cristal4.jpeg");
+    background-image: url("../imagenes/Cristal4.jpeg");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -1030,7 +1030,7 @@ section .button button:hover {
     position: absolute;
     top: -5px;
     left: -5px;
-    background-image: url("Images/daya.jpeg");
+    background-image: url("../imagenes/daya.jpeg");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -1180,14 +1180,14 @@ section .content1 {
 }
 
 .services1 .boxes1 .box1:nth-child(3) {
-    background-image: url(Images/n19.jpeg);
+    background-image: url(../imagenes/n19.jpeg);
     background-size: contain;
     background-position: center;
     height: 300px;
 }
 
 .services1 .boxes1 .box1:nth-child(3):hover {
-    background-image: url(Images/n21.jpeg);
+    background-image: url(../imagenes/n21.jpeg);
     background-size: contain;
     background-position: center;
     height: 300px;
@@ -1262,7 +1262,7 @@ section .content2 {
 }
 
 .services2 .boxes2 .box2:nth-child(1) {
-    background-image: url(Images/Letyaguayo2.jpeg);
+    background-image: url(../imagenes/Letyaguayo2.jpeg);
     background-size: cover;
     background-position: center;
     height: 300px;
@@ -1270,7 +1270,7 @@ section .content2 {
 
 .services2 .boxes2 .box2:nth-child(1):hover {
     cursor: pointer;
-    background-image: url(Images/letiaguayo4.jpeg);
+    background-image: url(../imagenes/letiaguayo4.jpeg);
     background-size: cover;
     background-position: center;
     height: 300px;
@@ -1358,7 +1358,7 @@ section .content3 {
 }
 
 .services3 .boxes3 .box3-2:nth-child(3) {
-    background-image: url(Images/entrenamiento%20funcional1.jpeg);
+    background-image: url(../imagenes/entrenamiento%20funcional1.jpeg);
     background-size: contain;
     background-position: center;
     height: 300px;
@@ -1366,7 +1366,7 @@ section .content3 {
 }
 
 .services3 .boxes3 .box3-2:nth-child(4) {
-    background-image: url(Images/enf.jpeg);
+    background-image: url(../imagenes/enf.jpeg);
     background-size: cover;
     background-position: center;
     height: 300px;
@@ -1374,7 +1374,7 @@ section .content3 {
 }
 
 .services3 .boxes3 .box3-2:nth-child(5) {
-    background-image: url(Images/entrenamiento%20funcional22.jpeg);
+    background-image: url(../imagenes/entrenamiento%20funcional22.jpeg);
     background-size: cover;
     background-position: center;
     height: 300px;
@@ -1382,7 +1382,7 @@ section .content3 {
 }
 
 .services3 .boxes3 .box3:nth-child(1):hover {
-    background-image: url(Images/n88.jpeg);
+    background-image: url(../imagenes/n88.jpeg);
     background-size: cover;
     background-position: center;
     height: 300px;
@@ -1466,7 +1466,7 @@ section .content4 {
 }
 
 .services4 .boxes4 .box4:nth-child(3) {
-    background-image: url(Images/perro1.jpg);
+    background-image: url(../imagenes/perro1.jpg);
     background-size: cover;
     background-position: center;
     height: 300px;
@@ -1475,7 +1475,7 @@ section .content4 {
 }
 
 .services4 .boxes4 .box4:nth-child(3):hover {
-    background-image: url(Images/pilatesl.jpeg);
+    background-image: url(../imagenes/pilatesl.jpeg);
     background-size: cover;
     background-position: center;
     height: 300px;
@@ -1551,14 +1551,14 @@ section .content5 {
 }
 
 .services5 .boxes5 .box5:nth-child(1) {
-    background-image: url(Images/med2.jpeg);
+    background-image: url(../imagenes/med2.jpeg);
     background-size: contain;
     background-position: center;
     height: 300px;
 }
 
 .services5 .boxes5 .box5:nth-child(1):hover {
-    background-image: url(Images/Cristal7.jpeg);
+    background-image: url(../imagenes/Cristal7.jpeg);
     background-size: cover;
     background-position: center;
     height: 300px;
@@ -1791,7 +1791,7 @@ section .content5 {
 
 .table1 {
     text-align: center;
-    background-image: url(Images/f8.png);
+    background-image: url(../imagenes/f8.png);
     background-size: auto;
     border: 5px solid #BDC3C7;
 }
@@ -1865,7 +1865,7 @@ section .content5 {
 
 .table2 {
     width: 100%;
-    background-image: url(Images/f8.png);
+    background-image: url(../imagenes/f8.png);
     background-size: auto;
     border: 5px solid #BDC3C7;
 }
@@ -1906,7 +1906,7 @@ section .content5 {
 
 .table3 {
     width: 100%;
-    background-image: url(Images/f8.png);
+    background-image: url(../imagenes/f8.png);
     background-size: auto;
     border: 5px solid #BDC3C7;
 }
@@ -1949,7 +1949,7 @@ section .content5 {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    background: url(Images/f6.png) repeat;
+    background: url(../imagenes/f6.png) repeat;
 }
 
 .services .boxes .box {
@@ -3311,17 +3311,17 @@ a .fa-angle-left {
         height: 100vh;
     }
     #car1 {
-        background: linear-gradient(0deg, rgba(10, 86, 150, .35), rgba(215, 219, 221, .65)), url("Images/meditacion1.jpg");
+        background: linear-gradient(0deg, rgba(10, 86, 150, .35), rgba(215, 219, 221, .65)), url("../imagenes/meditacion1.jpg");
         background-size: cover;
         background-position: bottom;
     }
     #car2 {
-        background: linear-gradient(-130deg, rgba(231, 220, 236, .45), rgba(215, 219, 221, .15)), url("Images/n66.jpeg") left center;
+        background: linear-gradient(-130deg, rgba(231, 220, 236, .45), rgba(215, 219, 221, .15)), url("../imagenes/n66.jpeg") left center;
         background-size: cover;
         background-position: center;
     }
     #car3 {
-        background: linear-gradient(-180deg, rgba(215, 219, 221, .5), rgba(215, 219, 221, .1)), url("Images/n20.jpeg") center top;
+        background: linear-gradient(-180deg, rgba(215, 219, 221, .5), rgba(215, 219, 221, .1)), url("../imagenes/n20.jpeg") center top;
         background-size: cover;
         background-position: center;
     }
@@ -3576,4 +3576,11 @@ a .fa-angle-left {
     .image:nth-child(2) {
         height: 90px;
     }
+}
+
+
+/*-------------------------------*/
+
+.contenedorBtnsAcceso {
+    border: 1px solid red;
 }

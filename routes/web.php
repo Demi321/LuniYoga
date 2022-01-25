@@ -30,8 +30,14 @@ Route::get('/contacto', function () {
 Route::get('/blog', function () {
     return view('secciones/blog');
 });
+Route::get('/registrarse', function () {
+    return view('secciones/registrarse');
+});
+Route::get('/blog', function () {
+    return view('secciones/blog');
+});
 
 
 
 
-Route::get('saludo',[ControladorPrincipal::class,"saludando"]);
+//Route::get('insertaUsuarios',[ControladorPrincipal::class,"insertaUsuarios"]);

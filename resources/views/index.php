@@ -45,6 +45,7 @@
  </head>
 
  <body>
+ 
      <!-- Move to up button -->
      <div class="scroll-button">
          <a href="#home"><i class="fas fa-arrow-up"></i></a>
@@ -70,11 +71,13 @@
                  <li><a href="clases">Clases</a></li>
                  <li><a href="contacto">Contacto</a></li>
                  <li><a href="blog">Blog</a></li>
+                 <li><a href="">Iniciar sesión</a></li>
+                 <li><a href="registrarse">Registrarse</a></li>
                  <div class="cancel-btn">
                      <i class="fas fa-times"></i>
                  </div>
              </ul>
-
+     
          </div>
          <div class="menu-btn">
              <i class="fas fa-bars"></i>
@@ -392,7 +395,7 @@
          </div>
      </footer>
 
-     <script src="script.js"></script>
+     <script src="js/script.js"></script>
      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
  </body>
 
