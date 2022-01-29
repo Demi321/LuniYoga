@@ -50,3 +50,340 @@
 .contenedorRegistro .btnRegistro::after {
     content: "text despues";
 }*/
+@import url('https://fonts.googleapis.com/css2?family=Glory:wght@100;300;400;500;600&family=Montserrat:wght@100;300;400;500;600&family=Poppins:ital,wght@0,100;0,300;0,400;0,500;0,600;1,400&family=Quicksand:wght@300;400;500;600;700&family=Spartan:wght@100;300;400;500;600&family=Ubuntu:wght@300;400;500;700&display=swap');
+
+
+
+
+:root {
+    --moradoLuniYoga: #4c469a;
+    --moradoInter:#9b87b3;
+    --moradoClaro:  #e7dcec;
+    --verdeLuniyoga: #a8cf45;
+    --azulLuniyoga:#3498DB;
+}
+body{
+    background-color: rgba(155, 135, 179,.7);
+    font-family: 'Poppins', sans-serif;
+}
+
+
+
+
+header .nav  a{
+    color: var(--moradoLuniYoga);
+      font-size:21px;
+    text-decoration: none;
+
+
+}
+header .nav a:hover{
+    color: var(--moradoLuniYoga);
+    text-decoration: underline;
+}
+
+.menu img{
+    width: 70px;
+}
+
+
+
+
+
+.contenedorRegistro {
+    
+    background-color: white;
+    width: 70%;
+    min-width: 420px;
+    padding: 35px 50px;
+    border-radius: 10px;
+    box-shadow: 20px 30px 25px rgba(0,0,0,0.15);
+
+  
+}
+
+
+.contenedorRegistro .tituloRegistro{
+    color: var(--moradoInter);
+    text-align: center;
+}
+
+.contenedorRegistro .tituloRegistro span{
+    color: var(--moradoLuniYoga);
+  font-style: italic;
+    font-weight: 700;
+}
+
+.contenedorRegistro p {
+    color: var(--azulLuniyoga);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 22px;
+    text-align: center;
+}
+
+.contenedorRegistro a{
+    
+  display: block;
+        color: var(--azulLuniyoga);
+        font-size: 17px;
+    margin-top: 10px;
+        text-decoration: none;
+        text-align: center;
+   
+         }
+  .contenedorRegistro a:hover{
+            text-decoration: underline;
+            color: var(--azulLuniyoga);
+}
+        
+
+
+
+.contenedorRegistro .left {
+
+    background: repeating-linear-gradient(
+        45deg,
+        rgba(0, 0, 0, 0) 20px,
+        rgba(0, 0, 0, 0) 40px,
+        rgba(231, 220, 236,.4) 40px,
+        rgba(231, 220, 236,.4) 50px
+      );   
+       clip-path: polygon(50% 0%, 80% 10%, 100% 35%, 100% 70%, 80% 90%, 50% 100%, 20% 90%, 0% 70%, 0% 35%, 20% 10%);
+
+ }
+
+.contenedorRegistro  .left .logoRegistro{
+width:200px;
+margin-right: auto;
+margin-left: auto;
+margin: 20px auto;
+
+}
+
+.contenedorRegistro  .left  p{
+margin-top: 35px;
+
+}
+
+.contenedorRegistro .right input{
+    margin-top: 13px;
+}
+
+
+.contenedorRegistro   .btnAccionPrimaria {
+    border: 1px solid var(--moradoInter);
+    border-radius: 7px;
+    background-color: white;
+    color: var(--moradoLuniYoga);
+    padding: 10px;
+    margin: 20px 0;
+ 
+    font-size: 21px;
+}
+
+.contenedorRegistro   .btnAccionPrimaria:hover{
+    background-color:var(--moradoInter);
+    color: white;
+}
+
+
+.contenedorRegistro   .btnAccionSecundaria {
+    border: 1px solid var(--verdeLuniyoga);
+    background-color: var(--verdeLuniyoga);
+    border-radius: 7px;
+    color:white;
+    margin-bottom: 10px;
+    padding:  10px;
+  font-weight: 500;
+    
+    font-size: 20px;
+}
+
+.contenedorRegistro .btnAccionSecundaria:hover {
+    background-color:var(--verdeLuniyoga);
+    color: var(--verdeLuniyoga);
+    background: transparent;
+}
+
+.contenedorRegistro .avisoError {
+    font-size: 13px;
+    color: var(--azulLuniyoga);
+}
+
+.isInvalid {
+    border: 1px solid rgb(255, 132, 132);
+}
+
+.ocultaElemento {
+    display: none;
+}
+
+
+/* Estilos Login*/
+.contenedorLogin {
+    
+    background-color: white;
+    width: 70%;
+    min-width: 420px;
+    padding:auto;
+    border-radius: 10px;
+    box-shadow: 20px 30px 25px rgba(0,0,0,0.15);
+   margin: 0 auto;
+  
+   font-family: 'Montserrat', sans-serif;
+}
+
+.contenedorLogin .left{
+text-align: center;
+padding: 90px;
+
+}
+
+
+.contenedorLogin .tituloLogin{
+    color: var(--moradoLuniYoga);
+    font-family: 'Poppins', sans-serif;
+    font-size: 35px;
+    margin-bottom: 25px;
+ 
+ }
+
+ .contenedorLogin input{
+     margin: 25px;
+}
+
+.contenedorLogin a{
+    
+    display: block;
+          color: var(--azulLuniyoga);
+          font-size: 17px;
+      margin-top: 10px;
+          text-decoration: none;
+          text-align: center;
+     
+           }
+ .contenedorLogin a:hover{
+    text-decoration: underline;
+    color: var(--azulLuniyoga);
+  }
+
+.contenedorLogin .right{
+    background-image: linear-gradient(
+        45deg,
+        rgba(52, 152, 219,.4),
+        rgba(231, 220, 236,.3)),  
+      url(/imgLoginRegistro/blogyoga.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+
+    border-top-right-radius:4%;
+    border-bottom-right-radius:4%;
+padding: 90px;
+clip-path: polygon(100% 0, 100% 50%, 100% 100%, 0% 100%, 6% 51%, 0% 0%);
+
+
+}
+
+.contenedorLogin .infoLogin{
+    text-align: center;
+  
+}
+
+
+.contenedorLogin .right p{
+    color: var(--azulLuniyoga);
+    font-size: 23px;
+    font-weight: 700;
+}
+
+.contenedorLogin .right img{
+    width: 70%;
+  
+}
+
+
+.contenedorLogin  .btnAccionSecundaria {
+    border: 1px solid var(--verdeLuniyoga);
+    background-color: var(--verdeLuniyoga);
+    border-radius: 7px;
+    color:white;
+    margin-top: 10px;
+    padding:  10px;
+  font-weight: 500;
+    
+    font-size: 20px;
+}
+
+.contenedorLogin .btnAccionSecundaria:hover {
+  transform: scale(1.1);
+}
+
+.contenedorLogin   .btnAccionPrimaria {
+    border: 1px solid var(--moradoInter);
+    border-radius: 7px;
+    background-color: var(--moradoInter);
+    color: white;
+    padding: 10px;
+    margin: 20px 0;
+ 
+    font-size: 21px;
+}
+
+.contenedorLogin    .btnAccionPrimaria:hover{
+    background-color:var(--moradoLuniYoga);
+    color: white;
+  
+}
+
+
+
+
+
+
+
+
+
+
+/* Media query*/
+
+@media (max-width: 760px){
+  
+    .contenedorLogin .right{
+
+        clip-path: none;
+        border-top-right-radius:0%;
+   
+        background: repeating-linear-gradient(
+            45deg,
+            rgba(0, 0, 0, 0) 20px,
+            rgba(0, 0, 0, 0) 40px,
+            rgba(231, 220, 236,.4) 40px,
+            rgba(231, 220, 236,.4) 50px
+          ); 
+          margin-top: -70px;
+    }
+    
+
+.contenedorRegistro .left {
+    clip-path: polygon(30% 0%, 70% 0%, 100% 30%, 100% 70%, 87% 100%, 11% 100%, 0% 70%, 0% 30%);
+
+ }
+
+}
+@media (max-width: 470px){
+   
+}
+
+
+/*
+
+.contenedorRegistro .btnRegistro::before {
+    content: "text antes";
+}
+
+.contenedorRegistro .btnRegistro::after {
+    content: "text despues";
+}*/
+
+/*//------------------------------------------------*/

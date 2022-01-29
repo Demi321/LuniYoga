@@ -71,7 +71,7 @@
                  <li><a href="clases">Clases</a></li>
                  <li><a href="contacto">Contacto</a></li>
                  <li><a href="blog">Blog</a></li>
-                 <li><a href="">Iniciar sesión</a></li>
+                 <li><a href="iniciarsesion">Iniciar sesión</a></li>
                  <li><a href="registrarse">Registrarse</a></li>
                  <div class="cancel-btn">
                      <i class="fas fa-times"></i>

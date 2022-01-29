@@ -4,7 +4,7 @@ import * as utils from "./lib/utilerias.js"
 
 let btnRegistrarse = document.getElementById("btnRegistrarse");
 
-btnRegistrarse.addEventListener("click", function() {
+btnRegistrarse.addEventListener("click", function () {
 
     let listaInputs = document.querySelectorAll("#contenedorRegistro input");
     let datosOk = true;
@@ -43,13 +43,30 @@ btnRegistrarse.addEventListener("click", function() {
         });
         utils.requestPost("api/registroUsuarios", data).then((data) => {
             console.log(data)
-            listaInputs.forEach(element => {
-                element.value = "";
+            Swal.fire({
+                text: data.mensaje,
+                confirmButtonColor: '#3085d6',
+                cancelButtonColor: '#d33',
+                confirmButtonText: 'Aceptar',
+
+            }).then(()=>{
+
+                if(data.success){
+                    listaInputs.forEach(element => {
+                        element.value = "";
+                    });
+                    location.href="/";
+                }
+
             });
+
+            
+
         });
     }
 
 });
+
 
 
 

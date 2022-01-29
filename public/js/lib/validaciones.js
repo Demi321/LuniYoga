@@ -18,7 +18,6 @@ export function eliminaClaseInvalid(listaIds) {
 }
 
 export function validaCamposVacios(idCampo) {
-
     let campo = document.getElementById(idCampo);
     muestraAvisoError(campo);
 

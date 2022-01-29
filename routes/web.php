@@ -33,6 +33,9 @@ Route::get('/blog', function () {
 Route::get('/registrarse', function () {
     return view('secciones/registrarse');
 });
+Route::get('/iniciarsesion', function () {
+    return view('secciones/iniciarSesion');
+});
 Route::get('/blog', function () {
     return view('secciones/blog');
 });
